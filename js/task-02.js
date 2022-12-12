@@ -11,7 +11,7 @@ const listOfIngredients = document.querySelector('#ingredients');
 
 const item = ingredients.map(ingredient => {
   const liEl = document.createElement('li');
-  liEl.textContent = ingredients;
+  liEl.textContent = ingredient;
   liEl.classList.add('item');
   return liEl;
 });
